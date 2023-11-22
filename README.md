@@ -18,7 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To learn more about adding depedencess, take a look at the following resources:
 
-- - learn about Next.js features and API.
+- tailwind eslint typescript postcss is preInstalled in devDependencies(library which is use for
+  development but not in produection like babel or webpack etc )
+-
 -
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your
