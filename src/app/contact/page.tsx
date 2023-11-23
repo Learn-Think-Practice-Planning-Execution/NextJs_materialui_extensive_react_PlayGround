@@ -4,5 +4,5 @@ import { notFound } from "next/navigation";
 export default function Home() {
   // return new Error("this is error");
 
-  return <div>root home page </div>;
+  return <div>contact page </div>;
 }
