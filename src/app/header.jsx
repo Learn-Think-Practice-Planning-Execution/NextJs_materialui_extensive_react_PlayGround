@@ -1,15 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 export default function Headers() {
   // return new Error("this is error");
 
   const pathname = usePathname();
+  const router = useRouter();
   console.log("pathname", pathname);
+  console.log("pathname", router);
   return (
     <ul
       style={{
