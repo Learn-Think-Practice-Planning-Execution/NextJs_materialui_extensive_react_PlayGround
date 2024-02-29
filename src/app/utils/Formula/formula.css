@@ -1,0 +1,32 @@
+.formulaEditorHolder {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 6px;
+}
+
+.formulaEditorHolder .stringAndInput {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.formulaEditorHolder .formulaInput {
+    flex-grow: 1;
+}
+
+.formulaEditorHolder .formulaInput .inputRoot {
+    padding: 0;
+    border: none;
+}
+
+.formulaEditorHolder .formulaInput .inputRoot .input {
+    padding: 0;
+    border: none;
+}
+
+.formulaEditorHolder .formulaInput .endAdornmentClose {
+    display: none;
+}
+
+.formulaEditorHolder .arraToString {
+    word-break: break-all;
+}
