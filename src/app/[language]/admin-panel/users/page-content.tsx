@@ -6,13 +6,14 @@ import { useTranslation } from "@/services/i18n/client";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
-import {
+import React, {
   PropsWithChildren,
   useCallback,
   useMemo,
   useRef,
   useState,
 } from "react";
+
 import { useGetUsersQuery, usersQueryKeys } from "./queries/queries";
 import { TableVirtuoso } from "react-virtuoso";
 import TableCell from "@mui/material/TableCell";

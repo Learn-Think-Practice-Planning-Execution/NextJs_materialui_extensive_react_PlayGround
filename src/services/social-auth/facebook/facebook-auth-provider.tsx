@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo } from "react";
+import React, { useCallback, useEffect, useMemo } from "react";
 import { FacebookAuthLoginResponse, FacebookContext } from "./facebook-context";
 import { facebookAppId, isFacebookAuthEnabled } from "./facebook-config";
 import { languages } from "@/services/i18n/config";

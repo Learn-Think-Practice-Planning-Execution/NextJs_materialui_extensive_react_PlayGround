@@ -1,3 +1,4 @@
+import React from "react";
 import ResponsiveAppBar from "@/components/app-bar";
 import AuthProvider from "@/services/auth/auth-provider";
 import "../globals.css";

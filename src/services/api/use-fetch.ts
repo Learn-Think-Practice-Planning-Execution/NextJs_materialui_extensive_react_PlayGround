@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import React, { useCallback } from "react";
 import { AUTH_REFRESH_URL } from "./config";
 import { FetchInputType, FetchInitType } from "./types/fetch-params";
 import useLanguage from "../i18n/use-language";
